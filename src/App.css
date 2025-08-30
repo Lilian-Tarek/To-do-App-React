@@ -1,0 +1,47 @@
+:root
+{
+    --violet:rgb(160, 23, 170);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: var(--violet);
+    display: flex;
+    justify-content: center;
+}
+.to-do-wrapper
+{
+    border-radius: 20px;
+}
+form
+{  border: 2px solid var(--violet);
+    border-radius: 20px;
+}
+input
+{
+    border: 2px solid var(--violet);
+    border-radius: 10px 0 0 10px;
+}
+input:focus
+{
+     border: 2px solid var(--violet) !important;
+}
+.todo-btn{
+   border: 2px solid var(--violet); 
+   border-radius: 0 10px 10px 0;  
+   background-color: var(--violet);
+}
+.todo
+{
+    background-color: var(--violet);
+    border-radius: 10px;
+}
+.completed
+{
+color: gray;
+text-decoration: line-through;
+}
